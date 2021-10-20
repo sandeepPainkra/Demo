@@ -1,0 +1,49 @@
+.sidebar {
+  flex: 0.35;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid gray;
+}
+.sidebar__headerRight {
+  display: flex;
+  min-width: 40%;
+  justify-content: space-between;
+}
+.sidebar__headerRight .MuiSvgIcon-root {
+  color: gray;
+}
+.sidebar__search {
+  padding: 8px;
+  background-color: rgb(218, 218, 218);
+}
+
+.sidebar_searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+.sidebar_searchContainer .MuiSvgIcon-root {
+  color: gray;
+}
+.sidebar_searchContainer input {
+  border: 0;
+  outline: none;
+  color: gray;
+}
+/* SidebarChat starts */
+.sidebar_chat {
+  flex: 1;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+.sidebar_chat::-webkit-scrollbar {
+  display: none;
+}
